@@ -40,6 +40,7 @@
         <osgi.arch>x86_64</osgi.arch>
         <strictVersions>true</strictVersions>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <product.version>8.0.1</product.version>
     </properties>
 
     <repositories>
@@ -221,7 +222,6 @@
             <properties>
                 <release.suffix>-SNAPSHOT</release.suffix>
                 <revision.filename>SNAPSHOT</revision.filename>
-                <product.version>${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}</product.version>
             </properties>
             <build>
                 <plugins>
@@ -272,7 +272,6 @@
             <properties>
                 <release.suffix>-SNAPSHOT</release.suffix>
                 <revision.filename>SNAPSHOT</revision.filename>
-                <product.version>${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}</product.version>
             </properties>
             <build>
                 <plugins>
@@ -314,7 +313,6 @@
             <properties>
                 <release.suffix>-SNAPSHOT</release.suffix>
                 <revision.filename>SNAPSHOT</revision.filename>
-                <product.version>${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}</product.version>
             </properties>
             <build>
                 <plugins>
@@ -423,7 +421,6 @@
                 <activeByDefault>false</activeByDefault>
             </activation>
             <properties>
-                <product.version>${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}</product.version>
                 <timestamp>${maven.build.timestamp}</timestamp>
                 <maven.build.timestamp.format>yyyyMMdd'_'HHmm</maven.build.timestamp.format>
                 <tycho.buildtimestamp.format>${maven.build.timestamp.format}</tycho.buildtimestamp.format>
