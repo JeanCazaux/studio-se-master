@@ -178,7 +178,13 @@
                             <arch>${osgi.arch}</arch>
                         </environment>
                     </environments>
-                </configuration>
+                    <filters>
+			 <filter>
+					<type>p2-installable-unit</type>
+					<id>slf4j.nop</id>
+					<removeAll />
+				 </filter>
+                    </filters>                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.eclipse.tycho</groupId>
