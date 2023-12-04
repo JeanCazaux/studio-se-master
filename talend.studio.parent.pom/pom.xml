@@ -19,7 +19,7 @@
         <daikon-ee.format.verison>3.2.0</daikon-ee.format.verison>
         <daikon.audit.version>1.16.1</daikon.audit.version>
         <org.talend.daikon.crypto-utils.version>7.1.16</org.talend.daikon.crypto-utils.version>
-        <studio-utils.version>1.0.13</studio-utils.version>
+        <studio-utils.version>1.0.14</studio-utils.version>
         <compcache.creator.version>1.0.0</compcache.creator.version>
         <tycho.version>4.0.4</tycho.version>
         <tycho-extras.version>${tycho.version}</tycho-extras.version>
