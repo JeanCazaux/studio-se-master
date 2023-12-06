@@ -179,12 +179,20 @@
                         </environment>
                     </environments>
                     <filters>
-			 <filter>
-					<type>p2-installable-unit</type>
-					<id>slf4j.nop</id>
-					<removeAll />
-				 </filter>
-                    </filters>                </configuration>
+                        <filter>
+                            <type>eclipse-plugin</type>
+                            <id>org.apache.log4j</id>
+                            <restrictTo>
+                                <version>1.2.24.TALEND</version>
+                            </restrictTo>
+                        </filter>
+                        <filter>
+                            <type>p2-installable-unit</type>
+                            <id>slf4j.nop</id>
+                            <removeAll />
+                        </filter>
+                    </filters>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.eclipse.tycho</groupId>
