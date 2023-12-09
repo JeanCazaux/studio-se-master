@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-    <groupId>org.talend.studio</groupId>
+    <parent>
+        <groupId>org.talend.studio</groupId>
+        <artifactId>studio-deps-bom</artifactId>
+        <version>8.8.8-SNAPSHOT</version>
+        <relativePath>../studio-deps-bom/</relativePath>
+    </parent>
     <artifactId>parent-pom</artifactId>
-    <version>8.8.8-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <component-runtime.version>1.62.1</component-runtime.version>
-        <components.version>0.38.0-SNAPSHOT</components.version>
-        <tacokit.components.version>1.53.0-SNAPSHOT</tacokit.components.version>
-        <m2.fasterxml.jackson.version>2.14.3</m2.fasterxml.jackson.version>
-        <m2.fasterxml.jackson.databind.version>2.14.3</m2.fasterxml.jackson.databind.version>
-        <jackson-codehaus.version>1.9.16-TALEND</jackson-codehaus.version>
-        <daikon.version>7.1.16</daikon.version>
-        <slf4j-api.version>1.7.34</slf4j-api.version>
-        <daikon-ee.format.verison>3.2.0</daikon-ee.format.verison>
-        <daikon.audit.version>1.16.1</daikon.audit.version>
-        <org.talend.daikon.crypto-utils.version>7.1.16</org.talend.daikon.crypto-utils.version>
-        <studio-utils.version>1.0.14</studio-utils.version>
         <compcache.creator.version>1.0.0</compcache.creator.version>
         <tycho.version>4.0.4</tycho.version>
         <tycho-extras.version>${tycho.version}</tycho-extras.version>
